@@ -1,0 +1,1 @@
+const express = require('express'); const app = express(); app.get('/', (req, res) => res.send('D30 Backend')); app.listen(3000);
